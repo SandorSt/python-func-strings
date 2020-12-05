@@ -17,7 +17,7 @@ def producto():
 
 def peri_rect(base, altura):
     peri = 2 * base + 2 * altura
-    print(per)
+    print(peri)
 
 #peri_rect(2, 4)
 
@@ -101,10 +101,15 @@ def par_impar(num):
 # b) Escribir una función que dado un número entero devuelva 0 si el mismo es impar
 # y 1 si fuera par.
 
+def impar_par(num):
+    if num % 2 == 0:
+        print(1)
+    else:
+        print(0)
 
 # c) Escribir una función que dado un número entero devuelva el dígito de las
-# unidades. Por
-# ejemplo, para 153 debe devolver 3.
+# unidades. Por ejemplo, para 153 debe devolver 3.
+
 # d) Escribir una función que dado un número devuelva el primer número múltiplo de
 # 10 inferior a él. Por ejemplo, para 153 debe devolver 150.
 # 9. Escribir un programa que imprima todos los números pares entre dos números
